@@ -10,7 +10,6 @@ def monte_carlo_var(portfolio_returns, num_simulations, confidence_level):
     return var
 
 portfolio_returns = np.array([0.01, -0.02, 0.03, -0.01, 0.02, -0.03, 0.01, -0.02, 0.04, -0.01])
-
 num_simulations = 10000
 confidence_level = 0.95
 
